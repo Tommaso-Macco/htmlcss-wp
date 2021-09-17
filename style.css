@@ -60,12 +60,17 @@ section {
 
 /* SECTION1 */
 
-#visualcontent {
-    height: 450px;
-    border-radius: 15px;
-    /* debug */
-    background-color: rgb(208, 209, 143);
+#container2 {
+    height: 500px;
+    background-color: black;
 }
+
+.visualcontent {
+    background-image: url(img/banner.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
 
 /* SECTION2 */
 

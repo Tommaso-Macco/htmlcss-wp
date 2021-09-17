@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Struttura</title>
 </head>
@@ -11,17 +14,31 @@
     <div class="marginauto"> <!-- Margin Left And Right -->
         <header>
             <div> <!-- Content Header -->
-
+                <img class="logoimg" src="img/logo.png" alt="">
             </div>
+            <nav>
+                <div class="clearfix">
+                    <ul>
+                        <li><a class="mainnav" href="#">Features</a></li>
+                        <li><a class="mainnav" href="#">Editorials</a></li>
+                        <li><a class="mainnav" href="#">Envrioment</a></li>
+                        <li><a class="mainnav" href="#">Blog</a></li>
+                        <li><a class="mainnav" href="#">Shop</a></li>
+                        <li><a class="mainnav" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
 
         <main>
             <section> <!-- Main Info Photo -->
-                <div id="visualcontent"></div>
+                <div id="visualcontent">
+                    <img src="img/banner.jpg" alt="">
+                </div>
             </section>
 
             <section> <!-- Box section  -->
-                <div id="container">
+                <div class="container clearfix">
                     <div id="uno"></div>
                     <div id="due"></div>
                     <div id="tre"></div>

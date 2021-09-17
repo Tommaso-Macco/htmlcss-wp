@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .marginauto {
     width: 80%;
     margin: auto;
@@ -21,9 +25,31 @@ header {
 }
 
 header>div {
-    height: 150px;
     /* debug */
-    background-color: pink;
+    /* background-color: pink; */
+    /* height: 150px; */
+}
+
+nav>div {
+    padding-top: 15px;
+    /* debug */
+    /* background-color: aliceblue; */
+}
+
+.logoimg {
+    height: 70px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.mainnav {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+
 }
 
 /* MAIN SETTINGS */
@@ -43,19 +69,19 @@ section {
 
 /* SECTION2 */
 
-section>#container:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
 
-#container {
+.container {
     /* debug */
     background-color: skyblue;
     width: 100%;
 }
 
-#container>div {
+.container>div {
     float: left;
     border: 10px solid blue;
     margin-top: 100px;
